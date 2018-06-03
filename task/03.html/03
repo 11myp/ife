@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    
+    *{
+         margin:0px;
+         padding:0px;
+    }
+      body table tr td{
+         border:1px solid #ccc;
+      }
+      body{
+          background-image:url(beijing.jpg);
+          background-size:100% 100%;
+      }
+    .center{
+        margin:20px 130px auto;
+        width:950px;
+    }
+
+    p{
+        text-align:center;
+    }
+
+    </style>
+</head>
+<body>
+            
+    
+   <div class="center">
+        <table width="1199" height="940">
+                   <!-- 个人资料 -->
+ 
+                    <caption>     <!--capation表格标题标签，标题中的字自动居中-->
+                        <h1>个人简历</h1>
+                    </caption>
+ 
+           
+            <tr>
+                <td colspan="6">      <!--colspan是td里面的标签，表示横跨几个表格-->
+                   <p> <b>个人资料</b></p>
+               </td>
+            </tr>
+
+            <tr>
+                <td width="100">姓名</td>
+                <td width="160"> </td>
+                <td width="100">年龄</td>
+                <td width="160"> </td>
+                <td width="100">政治面貌</td>
+                <td width="160"> </td>
+            </tr>
+
+            <tr>
+                <td>性别</td>
+                <td> </td>
+                <td>身高</td>
+                <td> </td>
+                <td>婚姻情况</td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td>民族</td>
+                <td> </td>
+                <td>籍贯</td>
+                <td> </td>
+                <td>健康状况</td>
+                <td> </td>
+            </tr>
+
+                   <!-- 教育背景 -->
+            <tr>
+                <td colspan="6"><p><b>教育背景</b></p></td>
+            </tr>
+
+            <tr>
+                <td>最高学历</td>
+                <td> </td>
+                <td>毕业日期</td>
+                <td> </td>
+                <td>普通话水平</td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td>熟悉方言</td>
+                <td> </td>
+                <td>第一外语</td>
+                <td> </td>
+                <td>第二外语</td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td >毕业院校</td>
+                <td  colspan="2"> </td>
+                <td > 所学专业</td>
+                <td colspan="2"> </td>
+            </tr>
+
+            <tr>
+                <td>所获证书</td>
+                <td colspan="2"> </td>
+                <td> 职称</td>
+                <td colspan="2"> </td>
+            </tr>
+            
+            <tr>
+                <td>教育培训经历</td>
+                <tdcolspan="5"> </td>
+            </tr>
+
+
+                     <!-- 工作经历 -->
+            <tr>
+                <td colspan="6"><p><b>工作经历</b></p></td>
+            </tr>
+
+            <tr>
+                <td>工作单位</td>
+                <td colspan="2"> </td>
+                <td>职位</td>
+                <td colspan="2"> </td>
+                
+            </tr>
+
+            <tr>
+                <td>工作内容及职位</td>
+                <td colspan="5"> </td> 
+            </tr>
+
+            <tr>
+                <td>工作单位</td>
+                <td colspan="5"> </td>              
+            </tr>
+        
+            <tr>
+                <td>离职原因</td>
+                <td colspan="5"> </td>              
+            </tr>
+        
+            <!-- 自我评价 -->
+
+            <tr>
+                <td  colspan="6"><p><b>自我评价</b></p></td>
+            </tr>
+
+            <tr>
+                <td> 自我评价</td>
+                <td colspan="5"></td>
+            </tr>
+ 
+                <!-- 联系方式 -->
+            <tr>
+                <td><b> 联系方式</b></td>
+            </tr>
+
+            <tr>
+                <td>固定电话</td>
+                <td colspan="2"> </td>
+                <td>手机</td>
+                <td  colspan="2"></td>
+            </tr>
+
+            <tr>
+                <td>通讯地址</td>
+                <td  colspan="2"> </td>
+                <td>e-mail</td>
+                <td  colspan="2"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>   
